@@ -26,4 +26,12 @@ This event has been set to be an in-person event. Those notes are for the first 
 Content to be added soon.
 
 ---
+
+## Day 1
+
+For details about day one please open first readme file:
+
+**[README-day-1.md](README-day-1.md)**
+
+---
 ---
