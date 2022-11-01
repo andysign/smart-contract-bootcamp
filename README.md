@@ -2,6 +2,10 @@
 
 This repository contains notes from the boo camp organized by ChainLink before the winter of 2022.
 
+> Master the fundamentals of smart contract development with ChainLink.
+
+> This BootCamp is designed to bring people together to learn how to build the next generation of smart contracts. Upon successful completion of the program, you’ll know what a blockchain is, how smart contracts work, and how to create, deploy, and execute smart contracts that use ChainLink oracles to securely access off-chain data and computations.
+
 ---
 
 ## When will this event take place?
