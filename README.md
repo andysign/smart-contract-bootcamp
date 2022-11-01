@@ -2,11 +2,11 @@
 
 This repository contains notes from the boo camp organized by ChainLink before the winter of 2022.
 
-The has been split in three separate workshops:
-
 ---
 
 ## When will this event take place?
+
+The has been split in three separate workshops:
 
 Day 1: October 26th, 6pm - 9pm BST
 
