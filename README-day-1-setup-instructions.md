@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day 1 Setup Instructions](#day-1-setup-instructions)
+  - [Software Installation](#software-installation)
+  - [MetaMask](#metamask)
+  - [Funding Your MetaMask Account](#funding-your-metamask-account)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Day 1 Setup Instructions
 
 ![image](https://user-images.githubusercontent.com/11134288/199357577-947de2a6-b9dc-452d-8655-32bc80522fcd.png)
