@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day 1 Exercises](#day-1-exercises)
+  - [Exercise 1: My First Smart Contract](#exercise-1-my-first-smart-contract)
+    - [Bonus Exercise: Increment](#bonus-exercise-increment)
+    - [Bonus Exercises: Arrays and Mappings](#bonus-exercises-arrays-and-mappings)
+      - [Adding an Array](#adding-an-array)
+      - [Adding a Mapping](#adding-a-mapping)
+    - [Bonus Exercises: Length And Others](#bonus-exercises-length-and-others)
+  - [Exercise 2: Price Feeds](#exercise-2-price-feeds)
+    - [Bonus Exercise: Getting The Timestamp](#bonus-exercise-getting-the-timestamp)
+  - [Exercise 3: VRF v2](#exercise-3-vrf-v2)
+  - [Exercise 4: Any-API](#exercise-4-any-api)
+    - [Bonus Exercise: CryptoCompare Price](#bonus-exercise-cryptocompare-price)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Day 1 Exercises
 
 ![image](https://user-images.githubusercontent.com/11134288/199536931-f2968f94-3cc4-471b-8d22-5a77d6e12778.png)
