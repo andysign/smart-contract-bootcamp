@@ -21,4 +21,14 @@ Or, alternatively, an exact copy of the that document in a _Markdown_ format fou
 
 **[README-day-1-setup-instructions.md](README-day-1-setup-instructions.md)**
 
+**Day 1 Exercises**:
+
+When it comes to exercises, the original document provided during the event can be found here:
+
+**[docs.google.com/document/d/e/2PACX-1vTTn8uE6xvJkHiyeBJIe9suXipRipPC-0H3VTiHLjREOunITkNnSEvK-WOzTlV-rZ12ixsjkn6r87EN/pub](https://docs.google.com/document/d/e/2PACX-1vTTn8uE6xvJkHiyeBJIe9suXipRipPC-0H3VTiHLjREOunITkNnSEvK-WOzTlV-rZ12ixsjkn6r87EN/pub)**
+
+Or, alternatively, copied in a _Markdown_ format here:
+
+**[README-day-1-exercises.md](README-day-1-exercises.md)**
+
 ---
