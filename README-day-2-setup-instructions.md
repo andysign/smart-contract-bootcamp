@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day 2 Setup Instructions](#day-2-setup-instructions)
+  - [Node.js](#nodejs)
+  - [Git](#git)
+  - [Visual Studio Code](#visual-studio-code)
+  - [Sign-up for Alchemy Keys](#sign-up-for-alchemy-keys)
+  - [Yarn](#yarn)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Day 2 Setup Instructions
 
 ![image](https://user-images.githubusercontent.com/11134288/200822829-c18ad8b7-34d6-4169-8023-5940209c8b1b.png)
