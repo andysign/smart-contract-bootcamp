@@ -29,7 +29,7 @@ Content to be added soon.
 
 ## Day 1
 
-For details about day one please open first readme file:
+For details about day one please open the first readme file:
 
 **[README-day-1.md](README-day-1.md)**
 
