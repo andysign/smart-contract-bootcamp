@@ -34,4 +34,12 @@ For details about day one please open the first readme file:
 **[README-day-1.md](README-day-1.md)**
 
 ---
+
+## Day 2
+
+For details about day two please open the second readme file:
+
+**[README-day-2.md](README-day-2.md)**
+
+---
 ---
