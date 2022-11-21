@@ -1,3 +1,33 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day 2 Exercises](#day-2-exercises)
+  - [Exercise 1: My First Hardhat Project](#exercise-1-my-first-hardhat-project)
+    - [Exercise 1: My First Hardhat Project: Setting Up Hardhat](#exercise-1-my-first-hardhat-project-setting-up-hardhat)
+    - [Exercise 1: My First Hardhat Project: Creating The Smart Contract](#exercise-1-my-first-hardhat-project-creating-the-smart-contract)
+    - [Exercise 1: My First Hardhat Project: Deploying and Interacting With the Smart Contract](#exercise-1-my-first-hardhat-project-deploying-and-interacting-with-the-smart-contract)
+    - [Exercise 1: My First Hardhat Project: Token Bonus Exercise](#exercise-1-my-first-hardhat-project-token-bonus-exercise)
+  - [Exercise 2: Deploying to a Local Network](#exercise-2-deploying-to-a-local-network)
+    - [Exercise 2: Deploying to a Local Network: Downloading the Hardhat Starter Kit](#exercise-2-deploying-to-a-local-network-downloading-the-hardhat-starter-kit)
+    - [Exercise 2: Deploying to a Local Network: Setting up the Local Hardhat Network](#exercise-2-deploying-to-a-local-network-setting-up-the-local-hardhat-network)
+    - [Exercise 2: Deploying to a Local Network: Deploying and Interacting With the Smart Contracts](#exercise-2-deploying-to-a-local-network-deploying-and-interacting-with-the-smart-contracts)
+    - [Exercise 2: Deploying to a Local Network: Forking Ethereum Mainnet](#exercise-2-deploying-to-a-local-network-forking-ethereum-mainnet)
+    - [Exercise 2: Deploying to a Local Network: Bonus Fork Exercise](#exercise-2-deploying-to-a-local-network-bonus-fork-exercise)
+  - [Exercise 3: Hardhat Starter Kit Testnet](#exercise-3-hardhat-starter-kit-testnet)
+    - [Exercise 3: Hardhat Starter Kit Testnet: Setting Up The Hardhat Starter Kit](#exercise-3-hardhat-starter-kit-testnet-setting-up-the-hardhat-starter-kit)
+    - [Exercise 3: Hardhat Starter Kit Testnet: Deploying The Smart Contracts](#exercise-3-hardhat-starter-kit-testnet-deploying-the-smart-contracts)
+    - [Exercise 3: Hardhat Starter Kit Testnet: Deploying The Smart Contracts](#exercise-3-hardhat-starter-kit-testnet-deploying-the-smart-contracts-1)
+    - [Exercise 3: Hardhat Starter Kit Testnet: Bonus Task Script Exercise](#exercise-3-hardhat-starter-kit-testnet-bonus-task-script-exercise)
+  - [Exercise 4: Testing Smart Contracts](#exercise-4-testing-smart-contracts)
+    - [Exercise 4: Testing Smart Contracts: Executing the Unit Tests](#exercise-4-testing-smart-contracts-executing-the-unit-tests)
+    - [Exercise 4: Testing Smart Contracts: Executing the Staging Tests (Previously Integration)](#exercise-4-testing-smart-contracts-executing-the-staging-tests-previously-integration)
+    - [Exercise 4: Testing Smart Contracts: Checking the Solidity Coverage](#exercise-4-testing-smart-contracts-checking-the-solidity-coverage)
+    - [Exercise 4: Testing Smart Contracts: Checking in your Project To a Public Code Repository](#exercise-4-testing-smart-contracts-checking-in-your-project-to-a-public-code-repository)
+  - [Appendix: Troubleshooting](#appendix-troubleshooting)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Day 2 Exercises
 
 ![image](https://user-images.githubusercontent.com/11134288/200854512-63ee4ec7-0a5c-494b-99de-2454764e33a2.png)
