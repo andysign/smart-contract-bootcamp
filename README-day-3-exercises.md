@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day 3 Exercises](#day-3-exercises)
+  - [Best Practice for Testing Smart Contracts](#best-practice-for-testing-smart-contracts)
+    - [Best Practice for Testing Smart Contracts: What Is Smart Contract Testing?](#best-practice-for-testing-smart-contracts-what-is-smart-contract-testing)
+    - [Best Practice for Testing Smart Contracts: Why is it important to test smart contracts?](#best-practice-for-testing-smart-contracts-why-is-it-important-to-test-smart-contracts)
+    - [Best Practice for Testing Smart Contracts: Automated testing for smart contracts](#best-practice-for-testing-smart-contracts-automated-testing-for-smart-contracts)
+    - [Best Practice for Testing Smart Contracts: Manual Testing For Smart Contracts](#best-practice-for-testing-smart-contracts-manual-testing-for-smart-contracts)
+    - [Best Practice for Testing Smart Contracts: Testing vs. formal verification](#best-practice-for-testing-smart-contracts-testing-vs-formal-verification)
+  - [Useful Resources for Your Next Steps](#useful-resources-for-your-next-steps)
+    - [Useful Resources for Your Next Steps: Solidity Resources](#useful-resources-for-your-next-steps-solidity-resources)
+    - [Useful Resources for Your Next Steps: Chainlink Resources](#useful-resources-for-your-next-steps-chainlink-resources)
+    - [Useful Resources for Your Next Steps: Crypto Twitter Accounts Worth Following](#useful-resources-for-your-next-steps-crypto-twitter-accounts-worth-following)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Day 3 Exercises
 
 ![image](https://user-images.githubusercontent.com/11134288/203155605-f91ef525-428f-4ab6-bc3b-6a974999c62a.png)
