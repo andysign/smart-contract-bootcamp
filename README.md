@@ -42,4 +42,12 @@ For details about day two please open the second readme file:
 **[README-day-2.md](README-day-2.md)**
 
 ---
+
+## Day 3
+
+For details about day two please open the third readme file:
+
+**[README-day-3.md](README-day-3.md)**
+
+---
 ---
