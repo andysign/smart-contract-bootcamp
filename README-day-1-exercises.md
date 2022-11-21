@@ -27,7 +27,7 @@
 
 In this exercise, you’ll create a simple smart contract that stores and retrieves a value, then you’ll deploy it to the Goerli testnet and interact with it using Remix.
 
-1. Open [http://remix.ethereum.org/](https://www.google.com/url?q=http://remix.ethereum.org/&sa=D&source=editors&ust=1667406700450732&usg=AOvVaw25hxyDlvaxE6wNyJYngez3)
+1. Open [http://remix.ethereum.org/](http://remix.ethereum.org/)
 
 2. If prompted, create a new default workspace
 
@@ -88,7 +88,7 @@ contract MyFirstContract {
 
 13. Because we already compiled our contract and we haven’t changed it, we don’t need to compile it again. Press the orange Deploy button to deploy your already compiled contract. Metamask will popup asking you to confirm the transaction. Press the blue ‘Confirm’ button to execute the transaction, and deploy your contract to the Goerli network. After a few seconds, you should see your deployed contract in the ‘Deployed Contracts’ section.
 
-14. Press the ‘copy’ contract address button to copy the contracts address to your clipboard, then head to [https://goerli.etherscan.io/](https://www.google.com/url?q=https://goerli.etherscan.io/&sa=D&source=editors&ust=1667406700458631&usg=AOvVaw090hnv7XxlGLqDp9P7hB63), here is where you can find your deployed contract on the Goerli network, and any associated transactions with it. Paste your contract address in the search field, and then press search. You should find your deployed contract, with 1 transaction (contract creation).
+14. Press the ‘copy’ contract address button to copy the contracts address to your clipboard, then head to [https://goerli.etherscan.io/](https://goerli.etherscan.io/), here is where you can find your deployed contract on the Goerli network, and any associated transactions with it. Paste your contract address in the search field, and then press search. You should find your deployed contract, with 1 transaction (contract creation).
 
 ![image](https://user-images.githubusercontent.com/11134288/199536337-b2c51988-db7b-49ff-840f-9dbad64c21e5.png)
 
@@ -142,7 +142,7 @@ In this exercise, we’re going to modify our MyFirstSmartContract smart contrac
 
 For this part of the exercise, you’ll create a dynamic array of names in your smart contract, stored as strings.
 
-1. Open [Remix](https://www.google.com/url?q=http://remix.ethereum.org/&sa=D&source=editors&ust=1667406700464817&usg=AOvVaw2q5FK3QY8VPG43BnKI-OL-), you should be able to find your completed smart contract from the last session in your explorer
+1. Open [Remix](http://remix.ethereum.org/), you should be able to find your completed smart contract from the last session in your explorer
 
 2. Next you need to add the new array to your smart contract. Create a new dynamic array of strings called ‘names’. You can add it under the existing ‘number’ variable.
 
@@ -369,7 +369,7 @@ In this exercise, you're going to create a simple smart contract that looks up t
 pragma solidity ^0.8.7;
 ```
 
-3. Underneath, enter in the contract source code. In our first example we will be using the ETH/USD price feed contract 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e, which we’ve taken from the Goerli section of the [Ethereum Price Feeds](https://www.google.com/url?q=https://docs.chain.link/docs/ethereum-addresses/&sa=D&source=editors&ust=1667406700486641&usg=AOvVaw3lHfKsAWHWFoUWGTWfKt-R) page of the Chainlink documentation
+3. Underneath, enter in the contract source code. In our first example we will be using the ETH/USD price feed contract 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e, which we’ve taken from the Goerli section of the [Ethereum Price Feeds](https://docs.chain.link/docs/ethereum-addresses/) page of the Chainlink documentation
 
 ```solidity
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
@@ -415,10 +415,10 @@ contract PriceConsumerV3 {
 
 ![image](https://user-images.githubusercontent.com/11134288/199548494-4b0c8e86-383b-4be8-82a1-ad7823b2383e.png)
 
-7. The returned result is the current market price of ETH, multiplied by 10^8. You can compare it to the Mainnet ETH/USD Price Feed by going to [https://data.chain.link/eth-usd](https://www.google.com/url?q=https://data.chain.link/eth-usd&sa=D&source=editors&ust=1667406700490090&usg=AOvVaw2-42x5xE0bptOA-My7byMc) and looking at the current price.
+7. The returned result is the current market price of ETH, multiplied by 10^8. You can compare it to the Mainnet ETH/USD Price Feed by going to [https://data.chain.link/eth-usd](https://data.chain.link/eth-usd) and looking at the current price.
 
-8. Go to the Ethereum Price Feeds page in the Chainlink documentation, and navigate down to the [‘Goerli Testnet’ section](https://www.google.com/url?q=https://docs.chain.link/docs/ethereum-addresses/%23Rinkeby%2520Testnet&sa=D&source=editors&ust=1667406700490448&usg=AOvVaw0xhdu-kmJpQadbs9adLtdy). Pick another pair, and copy the Proxy address. In our example, we’ve chosen the LINK/USD pair
-[0x48731cF7e84dc94C5f84577882c14Be11a5B7456](https://www.google.com/url?q=https://goerli.etherscan.io/address/0x48731cF7e84dc94C5f84577882c14Be11a5B7456&sa=D&source=editors&ust=1667406700490739&usg=AOvVaw2o6kTOQ9s4Tl_bFltLu9j1)
+8. Go to the Ethereum Price Feeds page in the Chainlink documentation, and navigate down to the [‘Goerli Testnet’ section](https://docs.chain.link/docs/ethereum-addresses/#Rinkeby%20Testnet). Pick another pair, and copy the Proxy address. In our example, we’ve chosen the LINK/USD pair
+[0x48731cF7e84dc94C5f84577882c14Be11a5B7456](https://goerli.etherscan.io/address/0x48731cF7e84dc94C5f84577882c14Be11a5B7456)
 
 9. Go back to your contract, and in the constructor, replace the address of the ETH/USD price feed address, with the one that you copied in the previous step.
 
@@ -437,7 +437,7 @@ AggregatorV3Interface(0x48731cF7e84dc94C5f84577882c14Be11a5B7456);
 
 ![image](https://user-images.githubusercontent.com/11134288/199548811-81dc9267-e39d-40e9-b30e-c7124d402e6f.png)
 
-13. Head to [https://data.chain.link/](https://www.google.com/url?q=https://data.chain.link/&sa=D&source=editors&ust=1667406700492521&usg=AOvVaw3uuXcXxJBl0QUReWoCvPgQ) and look for the equivalent price feed running on Mainnet.
+13. Head to [https://data.chain.link/](https://data.chain.link/) and look for the equivalent price feed running on Mainnet.
 
 ![image](https://user-images.githubusercontent.com/11134288/199548848-f153b7fa-6895-4c94-96c3-763bfedae3ad.png)
 
@@ -449,7 +449,7 @@ Congratulations, you’ve successfully written and deployed a contract that uses
 
 You can attempt to complete these exercises if you’ve completed the main exercise ahead of schedule
 
-1. Modify the Price Feed contract to get a different price feed that you pick from the Goerli Price Feed addresses in the [Chainlink Documentation](https://www.google.com/url?q=https://docs.chain.link/docs/reference-contracts/&sa=D&source=editors&ust=1667406700493415&usg=AOvVaw35l49yLg7xOynSAdsVSfH1). Then deploy and test your contract. Compare the value to the mainnet feed value at [https://data.chain.link](https://www.google.com/url?q=https://data.chain.link/&sa=D&source=editors&ust=1667406700493611&usg=AOvVaw2eJ8o_VAGGBqTHgXs5Ce45)
+1. Modify the Price Feed contract to get a different price feed that you pick from the Goerli Price Feed addresses in the [Chainlink Documentation](https://docs.chain.link/docs/reference-contracts/). Then deploy and test your contract. Compare the value to the mainnet feed value at [https://data.chain.link](https://data.chain.link/)
 
 2. Create a new function called ‘getTimestamp’ that returns a uint which is the timeStamp of the current round (hint: it can be accessed via the priceFeed.latestRoundData() call)
 
@@ -459,13 +459,13 @@ You can attempt to complete these exercises if you’ve completed the main exerc
 
 In this exercise, you're going to create a simple smart contract that performs a request for randomness using Chainlink VRF.
 
-This exercise is detailed in the tutorial [get a random number](https://www.google.com/url?q=https://docs.chain.link/docs/get-a-random-number/&sa=D&source=editors&ust=1667406700494495&usg=AOvVaw2vyCBZsF-0O3t45wuno7U0)
+This exercise is detailed in the tutorial [get a random number](https://docs.chain.link/docs/get-a-random-number/)
 
 ---
 
 ## Exercise 4: Any-API
 
-In this exercise, you're going to create a simple smart contract that performs a request for external data, using Chainlink Any-API. Firstly, open [http://remix.ethereum.org/](https://www.google.com/url?q=http://remix.ethereum.org/&sa=D&source=editors&ust=1667406700494853&usg=AOvVaw0iNXZgtriBghb0jBFdwW4f). This exercise uses the Goerli network, so make sure you have Goerli ETH and LINK in you
+In this exercise, you're going to create a simple smart contract that performs a request for external data, using Chainlink Any-API. Firstly, open [http://remix.ethereum.org/](http://remix.ethereum.org/). This exercise uses the Goerli network, so make sure you have Goerli ETH and LINK in you
 
 1. Expand the contracts folder, and press the new file button. Call the file APIConsumer.sol
 
@@ -570,13 +570,13 @@ contract APIConsumer is ChainlinkClient {
 
 ![image](https://user-images.githubusercontent.com/11134288/199550735-222669bd-2ac5-4d01-97fe-4976424d3f18.png)
 
-7. [Fund your contract with 1 link](https://www.google.com/url?q=https://docs.chain.link/docs/fund-your-contract/&sa=D&source=editors&ust=1667406700510412&usg=AOvVaw0Syyp_kifEvXJNNTwFQCzE) token. If you don’t have the LINK token added to your MetaMask wallet yet, press the ‘Add Token’ button at the bottom, then enter in the LINK token contract address 0xa36085F69e2889c224210F603D836748e7dC0088, then press save.
+7. [Fund your contract with 1 link](https://docs.chain.link/docs/fund-your-contract/) token. If you don’t have the LINK token added to your MetaMask wallet yet, press the ‘Add Token’ button at the bottom, then enter in the LINK token contract address 0xa36085F69e2889c224210F603D836748e7dC0088, then press save.
 
 8. Once your contract has been funded with LINK, you can now initiate the external data request. Expand the deployed contract by pressing on the “>” icon next to the contract name in the Deployed Contracts section. You should see the available functions that can be executed. Press on the ‘requestVolumeData’ button, then confirm the transaction when MetaMask pops up.
 
 ![image](https://user-images.githubusercontent.com/11134288/199550808-4ac0f1ce-a003-4cd6-9c23-2249dd506011.png)
 
-9. After a few seconds, your transaction should be approved. While you wait for the chainlink node to fulfill the request, goto [https://goerli.etherscan.io/](https://www.google.com/url?q=https://goerli.etherscan.io/&sa=D&source=editors&ust=1667406700511176&usg=AOvVaw1ih5SuebYJ3JY-eFZSZe45) and search for your deployed contract address (you copied it to the clipboard when you funded your contract with LINK). Once you find your deployed contract on Etherscan, go-to the ‘ERC-20 Token Txns’ tab. You should see 2 transactions, one incoming transfer of 1 LINK from when you funded your contract, and 0.1 LINK transferred out of the contract for your external data request.
+9. After a few seconds, your transaction should be approved. While you wait for the chainlink node to fulfill the request, goto [https://goerli.etherscan.io/](https://goerli.etherscan.io/) and search for your deployed contract address (you copied it to the clipboard when you funded your contract with LINK). Once you find your deployed contract on Etherscan, go-to the ‘ERC-20 Token Txns’ tab. You should see 2 transactions, one incoming transfer of 1 LINK from when you funded your contract, and 0.1 LINK transferred out of the contract for your external data request.
 
 ![image](https://user-images.githubusercontent.com/11134288/199550851-583ff04d-53eb-44af-bdad-f7e885d9cb16.png)
 
@@ -595,6 +595,6 @@ You can attempt to complete these exercises if you’ve completed the main exerc
 
 1. Modify your contract to get the price data from the Cryptocompare API instead of the volume. Rename all variables that mention volume to reflect the change in the data being brought in
 
-2. Change the API being accessed to the following, to get the BTC/USD price. [https://api.cryptowat.ch/markets/kraken/btcusd/price](https://www.google.com/url?q=https://api.cryptowat.ch/markets/kraken/btcusd/price&sa=D&source=editors&ust=1667406700512401&usg=AOvVaw2Xc54_tn7ynDqJs4r9eIsv). You’ll need to modify the ‘path’ parameter sent in the request as well to match the JSON path of the ‘price’ field if you paste the URL above into a browser window
+2. Change the API being accessed to the following, to get the BTC/USD price. [https://api.cryptowat.ch/markets/kraken/btcusd/price](https://api.cryptowat.ch/markets/kraken/btcusd/price). You’ll need to modify the ‘path’ parameter sent in the request as well to match the JSON path of the ‘price’ field if you paste the URL above into a browser window
 
 ---

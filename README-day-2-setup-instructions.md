@@ -107,7 +107,7 @@ If you’re using Windows and you get an error, ensure you’re using your CMD T
 
 ## Sign-up for Alchemy Keys
 
-We’ll be using Alchemy to connect to an Ethereum node and ‘fork the mainnet’ (don’t worry for now if you don’t understand what this means). Please complete the following steps to get your free Alchemy keys. 
+We’ll be using Alchemy to connect to an Ethereum node and ‘fork the mainnet’ (don’t worry for now if you don’t understand what this means). Please complete the following steps to get your free Alchemy keys.
 
 1. Watch [this introductory video](https://www.youtube.com/watch?v=b0fBo9n2Qdk&t=674s) explainer about Alchemy
 
@@ -148,20 +148,20 @@ If you get any errors installing yarn:
 **Windows Users**:
 - Ensure you’re running VS Code as Administrator (hold shift, right click, run as Administrator)
 - Try installing it from the Command Prompt instead, ensuring you run the CMD.exe as Administrator
-- Try downloading and installing it via the [msi installer](https://www.google.com/url?q=https://classic.yarnpkg.com/latest.msi&sa=D&source=editors&ust=1667999224433832&usg=AOvVaw3snpbbeOQr4gOjlitqatCr)
+- Try downloading and installing it via the [msi installer](https://classic.yarnpkg.com/latest.msi)
 
-[Video tutorial - How to install Yarn on Windows](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DHyJ89KCB7x8&sa=D&source=editors&ust=1667999224434299&usg=AOvVaw3nWiTPEgjwLrUZjM8IzQ1J)
+[Video tutorial - How to install Yarn on Windows](https://www.youtube.com/watch?v=HyJ89KCB7x8)
 
 **macOS or Linux users**:
 
 - Try running it with sudo in front of the command
 
-[Video tutorial - How to install Yarn on Mac](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DPM5X23upvNg&sa=D&source=editors&ust=1667999224434844&usg=AOvVaw2kua-Aj_5q4b6G6LEOhcvW)
+[Video tutorial - How to install Yarn on Mac](https://www.youtube.com/watch?v=PM5X23upvNg)
 
 ```sh
 sudo npm install -g yarn
 ```
 
-If you’re still stuck on installing yarn, check out some other possible installation methods on the [Yarn installation page](https://www.google.com/url?q=https://classic.yarnpkg.com/en/docs/install/&sa=D&source=editors&ust=1667999224435394&usg=AOvVaw3DN5YznH4fuijTwvZxFZ89)
+If you’re still stuck on installing yarn, check out some other possible installation methods on the [Yarn installation page](https://classic.yarnpkg.com/en/docs/install/)
 
 ---

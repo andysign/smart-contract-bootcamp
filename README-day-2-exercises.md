@@ -36,13 +36,13 @@
 
 ## Exercise 1: My First Hardhat Project
 
-In this exercise, you’ll use [Hardhat](https://www.google.com/url?q=https://hardhat.org/&sa=D&source=editors&ust=1668004461253715&usg=AOvVaw0ZVRpUhX3BAGi8U4futqsq) to create a new project that contains a simple smart contract that stores and retrieves a value, then you’ll deploy it to the Goerli network and interact with it.
+In this exercise, you’ll use [Hardhat](https://hardhat.org/) to create a new project that contains a simple smart contract that stores and retrieves a value, then you’ll deploy it to the Goerli network and interact with it.
 
 ---
 
 ### Exercise 1: My First Hardhat Project: Setting Up Hardhat
 
-1. Open Visual Studio Code [https://code.visualstudio.com/](https://www.google.com/url?q=https://code.visualstudio.com/&sa=D&source=editors&ust=1668004461254881&usg=AOvVaw3srqt5dSfnzcwXocQYsoiH)
+1. Open Visual Studio Code [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 2. On the top header menu, choose View -> Terminal to bring up the VS Terminal (or press CTRL + `)
 
@@ -80,13 +80,13 @@ yarn hardhat
 
 ![image](https://user-images.githubusercontent.com/11134288/200846247-a88ea859-ff6c-43b9-a76b-0b9e7ce9de19.png)
 
-9. For this exercise we’re going to use the [Ethers.js](https://www.google.com/url?q=https://docs.ethers.io/v5/&sa=D&source=editors&ust=1668004461261628&usg=AOvVaw2A8fDGxUPMQaCV4i4q6bj8) plugin. This will allow us to interact with Ethereum from outside the blockchain, using JavaScript. Run the following command in your terminal to install the ethers.js library, you can ignore any listed vulnerabilities.
+9. For this exercise we’re going to use the [Ethers.js](https://docs.ethers.io/v5/) plugin. This will allow us to interact with Ethereum from outside the blockchain, using JavaScript. Run the following command in your terminal to install the ethers.js library, you can ignore any listed vulnerabilities.
 
 ```sh
 yarn add --dev @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
 ```
 
-10. Another library we’ll need is the [‘dotenv’](https://www.google.com/url?q=https://github.com/motdotla/dotenv&sa=D&source=editors&ust=1668004461262947&usg=AOvVaw1Afn2hpX1wCKpSTmjNVwHI) library, which facilitates the loading of sensitive configuration data (such as keys) from a config file separate to your code. Install the library using the following command
+10. Another library we’ll need is the [‘dotenv’](https://github.com/motdotla/dotenv) library, which facilitates the loading of sensitive configuration data (such as keys) from a config file separate to your code. Install the library using the following command
 
 ```sh
 yarn add --dev dotenv
@@ -249,7 +249,7 @@ async function main() {
    });
 ```
 
-9. You’re now ready to deploy your smart contract to the Goerli network, and interact with it. Back in the terminal, enter the following command to deploy your smart contract to the Goerli network, and then execute the functions in the contract. If you don’t specify a network in the command, Hardhat will use the default one in your hardhat.config.js file (which is set to the Goerli network). If you get an error stating you have insufficient funds, ensure your MetaMask account has some ETH in it, as per the [setup instructions](https://www.google.com/url?q=https://chain.link/bootcamp/hardhat-setup-instructions&sa=D&source=editors&ust=1668004461289952&usg=AOvVaw0XDmILjjrpW8v0NmZKI5fX).
+9. You’re now ready to deploy your smart contract to the Goerli network, and interact with it. Back in the terminal, enter the following command to deploy your smart contract to the Goerli network, and then execute the functions in the contract. If you don’t specify a network in the command, Hardhat will use the default one in your hardhat.config.js file (which is set to the Goerli network). If you get an error stating you have insufficient funds, ensure your MetaMask account has some ETH in it, as per the [setup instructions](https://chain.link/bootcamp/hardhat-setup-instructions).
 
 ```sh
 yarn hardhat run scripts/deploy.js
@@ -259,7 +259,7 @@ yarn hardhat run scripts/deploy.js
 
 ![image](https://user-images.githubusercontent.com/11134288/200856322-d01fa676-f06f-461c-9f8b-c4be671bbc7e.png)
 
-11. Copy the deployed storage contract address specified in the output, and search for it on [https://goerli.etherscan.io/](https://www.google.com/url?q=https://goerli.etherscan.io/&sa=D&source=editors&ust=1668004461292652&usg=AOvVaw2_I5ycoMzj3BaStSsbWBD3). You should see two transactions, the creation of the contract, as well as a transaction to set the number listed in the transactions
+11. Copy the deployed storage contract address specified in the output, and search for it on [https://goerli.etherscan.io/](https://goerli.etherscan.io/). You should see two transactions, the creation of the contract, as well as a transaction to set the number listed in the transactions
 
 ![image](https://user-images.githubusercontent.com/11134288/200856362-58295ad7-2731-46f4-8179-4bb858077e3e.png)
 
@@ -271,7 +271,7 @@ yarn hardhat run scripts/deploy.js
 
 You can attempt to complete these exercises if you’ve completed the main exercise ahead of schedule:
 
-1. Create a new contract in the contracts folder called ERC-20.sol. Open the file, and enter in the full source code for the ERC20 token contract example on the [Ethereum developer tutorials page](https://www.google.com/url?q=https://ethereum.org/en/developers/tutorials/understand-the-erc-20-token-smart-contract/&sa=D&source=editors&ust=1668004461295730&usg=AOvVaw1MdlYDCoVmyfRrc4sVirat). The only changes you need to make is to update the pragma Solidity version at the top of the contract, and you should also comment out (put // at the beginning of the lines) the two ‘Approval’ and ‘Transfer’ events in the ERC20Basic contract to avoid possible compilation issues around duplicate events in the interface contract and the main contract. In addition to this, you can modify the token Symbol from ERC to whatever you choose. Save your file.
+1. Create a new contract in the contracts folder called ERC-20.sol. Open the file, and enter in the full source code for the ERC20 token contract example on the [Ethereum developer tutorials page](https://ethereum.org/en/developers/tutorials/understand-the-erc-20-token-smart-contract/). The only changes you need to make is to update the pragma Solidity version at the top of the contract, and you should also comment out (put // at the beginning of the lines) the two ‘Approval’ and ‘Transfer’ events in the ERC20Basic contract to avoid possible compilation issues around duplicate events in the interface contract and the main contract. In addition to this, you can modify the token Symbol from ERC to whatever you choose. Save your file.
 
 ```solidity
 pragma solidity =0.7.3;
@@ -418,7 +418,7 @@ yarn hardhat compile
 yarn hardhat run scripts/deploy-erc20.js
 ```
 
-5. Look for your deployed contract on [https://goerli.etherscan.io/](https://www.google.com/url?q=https://goerli.etherscan.io/&sa=D&source=editors&ust=1668004461316617&usg=AOvVaw0C9EZ_x04ScRPr5l9QS4Bs).
+5. Look for your deployed contract on [https://goerli.etherscan.io/](https://goerli.etherscan.io/).
 
 6. Append to your new script to send yourself some tokens with the deployed contract by calling the required functions, and passing in the parameters. For now you can hardcode your wallet address values, you can obtain them from MetaMask. I.e send tokens from your current account that you have setup in the private key environment variable, and send them to another wallet address in your MetaMask. Check your transaction in Etherscan.
 
@@ -473,7 +473,7 @@ yarn
 
 ![image](https://user-images.githubusercontent.com/11134288/200889664-c5e6edb1-af09-4112-a1c7-cf8330348691.png)
 
-4. Next, you need to ensure you’ve set the MAINNET_RPC_URL environment variable in the .env file. This will be used to create a fork of the Ethereum mainnet when we deploy to our local Hardhat network later on. Do this by taking the URL you noted from when you signed up to Alchemy in the [bootcamp setup instructions](https://www.google.com/url?q=https://chain.link/bootcamp/hardhat-setup-instructions&sa=D&source=editors&ust=1668004461325358&usg=AOvVaw05bQgcyxWUWEhXPRjIBDhf), and pasting it in an ‘MAINNET_RPC_URL’ variable in your .env file
+4. Next, you need to ensure you’ve set the MAINNET_RPC_URL environment variable in the .env file. This will be used to create a fork of the Ethereum mainnet when we deploy to our local Hardhat network later on. Do this by taking the URL you noted from when you signed up to Alchemy in the [bootcamp setup instructions](https://chain.link/bootcamp/hardhat-setup-instructions), and pasting it in an ‘MAINNET_RPC_URL’ variable in your .env file
 
 ```sh
 MAINNET_RPC_URL='https://eth-mainnet.alchemyapi.io/v2/insert_key_here',
@@ -567,7 +567,7 @@ defaultNetwork: "hardhat",
 
     Before you start working with our local forked network, modify the Price Consumer deploy script, and the helper-hardhat-config.js file, so that we can reference the actual ETH/USD price feed contract that’s currently on mainnet.
 
-2. Open the file helper-hardhat-config.js, and add the ‘ethUsdPriceFeed’ config to the 31337 network . This is your locally running forked hardhat network. The value for this config will be ‘0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419’, set to the contract address of the ETH/USD price feed on Ethereum mainnet, taken from The [Chainlink Price Feeds Contract Documentation](https://www.google.com/url?q=https://docs.chain.link/docs/ethereum-addresses/&sa=D&source=editors&ust=1668004461340580&usg=AOvVaw18sCJ0bkOwt9XRnCYAH5pM). Your config for the 31337 network should look like this in the file. Save the changes before continuing.
+2. Open the file helper-hardhat-config.js, and add the ‘ethUsdPriceFeed’ config to the 31337 network . This is your locally running forked hardhat network. The value for this config will be ‘0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419’, set to the contract address of the ETH/USD price feed on Ethereum mainnet, taken from The [Chainlink Price Feeds Contract Documentation](https://docs.chain.link/docs/ethereum-addresses/). Your config for the 31337 network should look like this in the file. Save the changes before continuing.
 
 ```js
 31337: {
@@ -626,7 +626,7 @@ yarn hardhat read-price-feed --contract insert-contract-address-here --network
 
 ![image](https://user-images.githubusercontent.com/11134288/202930786-1752bc72-b069-414e-bfb5-8c974aa6c45b.png)
 
-If you go to the page for the [ETH/USD feed on Ethereum mainnet](https://www.google.com/url?q=https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd&sa=D&source=editors&ust=1668004461355297&usg=AOvVaw0mhQyXzPULQt04CwSJ0cWI), you should see a matching result (or similar if a few blocks have passed)
+If you go to the page for the [ETH/USD feed on Ethereum mainnet](https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd), you should see a matching result (or similar if a few blocks have passed)
 
 ![image](https://user-images.githubusercontent.com/11134288/202930809-e0ed47ed-c98f-4106-8886-b815778aa8ab.png)
 
@@ -642,7 +642,7 @@ Congratulations, you’ve successfully used Hardhat to perform the following:
 
 You can attempt to complete these exercises if you’ve completed the main exercise ahead of schedule:
 
-Read the [Mainnet Forking](https://www.google.com/url?q=https://hardhat.org/guides/mainnet-forking.html&sa=D&source=editors&ust=1668004461358396&usg=AOvVaw229b9mXJ313zgz7YQ2FGl_) documentation in the hardat documentation, and try to fork mainnet at a specific block back in time, either by adding in the ‘blockNumber’ property into your hardhat.config.js file, or via the ‘fork-block-number’ parameter when you start your forked hardhat node.
+Read the [Mainnet Forking](https://hardhat.org/guides/mainnet-forking.html) documentation in the hardat documentation, and try to fork mainnet at a specific block back in time, either by adding in the ‘blockNumber’ property into your hardhat.config.js file, or via the ‘fork-block-number’ parameter when you start your forked hardhat node.
 
 ```
 yarn hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/<key> --fork-block-number 11095000
@@ -815,7 +815,7 @@ npx hardhat compile
 yarn hardhat compile
 ```
 
-2. Go to [http://vrf.chain.link](https://www.google.com/url?q=http://vrf.chain.link&sa=D&source=editors&ust=1668004461424324&usg=AOvVaw1h628bexQVEfzPjUInZpEN), find your previous subscription and copy the subscription ID, then add it to the helper.hardhat.config file in the goerli section, as per instructions [here](https://www.google.com/url?q=https://github.com/smartcontractkit/hardhat-starter-kit%23vrf-get-a-random-number&sa=D&source=editors&ust=1668004461425677&usg=AOvVaw2rVoF_IWnL7AWA26j9P_zw) as a new field ‘subscriptionId’
+2. Go to [http://vrf.chain.link](http://vrf.chain.link), find your previous subscription and copy the subscription ID, then add it to the helper.hardhat.config file in the goerli section, as per instructions [here](https://github.com/smartcontractkit/hardhat-starter-kit%23vrf-get-a-random-number) as a new field ‘subscriptionId’
 
     It will  look like this:
 
@@ -881,7 +881,7 @@ You have now successfully performed a request for external data, and obtained th
 
 **Random Number Consumer Contract**
 
-5. You need to go to your subscription page at [vrf.chain.link](https://www.google.com/url?q=https://vrf.chain.link&sa=D&source=editors&ust=1668004461445253&usg=AOvVaw2-kg_9Oo3ehmY2I_0-Kbhd) and add the address of deployed contract as a new consumer, using the ‘Add Consumer’ button
+5. You need to go to your subscription page at [vrf.chain.link](https://vrf.chain.link) and add the address of deployed contract as a new consumer, using the ‘Add Consumer’ button
 
 6. To interact with the deployed Random Number Consumer contract, first run the ‘request-random-number’ task to execute the getRandomNumber function, which will reach out to a Chainlink Oracle and make a request for randomness. You can do this by running the following command, replacing the contract address with the one specified in your console output for the deployed RandomNumberConsumer contract. Alternatively, the console output during deployment gives you the exact command to run to interact with the RandomNumberConsumer contract, you can copy and paste the command directly from there
 
@@ -910,7 +910,7 @@ Congratulations, you’ve successfully used the Hardhat Starter Kit to perform t
 
 ### Exercise 3: Hardhat Starter Kit Testnet: Bonus Task Script Exercise
 
-Create a new contract in the contracts folder. You can create or put any contract inside it! If you want some examples, check out the [Solidity docs examples](https://www.google.com/url?q=https://docs.soliditylang.org/en/v0.8.17/solidity-by-example.html&sa=D&source=editors&ust=1668004461452944&usg=AOvVaw1E8qV5uDcxxHZshOA9OdZv).
+Create a new contract in the contracts folder. You can create or put any contract inside it! If you want some examples, check out the [Solidity docs examples](https://docs.soliditylang.org/en/v0.8.17/solidity-by-example.html).
 
 1. Create a new contract in the contracts folder. You can create or put any contract inside it! If you want some examples, check out the Solidity docs examples.
 
@@ -1086,7 +1086,7 @@ yarn hardhat deploy --network goerli
 
 ![image](https://user-images.githubusercontent.com/11134288/202935024-6855db36-a2fb-403e-a6ac-32e92dc83116.png)
 
-7. Generate a personal access token as per the [GitHub instructions](https://www.google.com/url?q=https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token&sa=D&source=editors&ust=1668004461481535&usg=AOvVaw36AfZzL6Me-EVE0Ml8rfR0)
+7. Generate a personal access token as per the [GitHub instructions](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 8. Create a new repository on GitHub. Call it ‘dev-bootcamp-hardhat’, and leave the visibility as ‘public’. To avoid errors, do not initialize the new repository with README, license, or gitignore files. Once you get to the ‘setup page’, leave it open, you will come back to it soon.
 
@@ -1144,7 +1144,7 @@ git remote -v
 git push -u origin main
 ```
 
-Your repository should now be live on GitHub! If you still have GitHub open with your new repository, then you can just refresh the page. Otherwise, head to [GitHub](https://www.google.com/url?q=https://github.com/&sa=D&source=editors&ust=1668004461489946&usg=AOvVaw3sYFXfUei8V1iflJ5W_wpG), then in the top right corner open the menu and choose ‘your repositories’, then click on the URL link to your project to open it up and see. Take note of the URL and share it in the Bootcamp chat to share your completed project with everyone!
+Your repository should now be live on GitHub! If you still have GitHub open with your new repository, then you can just refresh the page. Otherwise, head to [GitHub](https://github.com/), then in the top right corner open the menu and choose ‘your repositories’, then click on the URL link to your project to open it up and see. Take note of the URL and share it in the Bootcamp chat to share your completed project with everyone!
 
 ![image](https://user-images.githubusercontent.com/11134288/202935305-ee7637cf-9cb0-47a7-bcfa-407e6c779e93.png)
 
@@ -1222,7 +1222,7 @@ If you get an error similar to the following while attempting to start a Hardhat
 Error HH604: Error running JSON-RPC server: Only absolute URLs are supported
 ```
 
-This means your fork URL is missing some components. Go to your .env file and ensure your variable is set correctly, and that the end hash string in your URL matches the key you obtained from [Alchemy](https://www.google.com/url?q=https://www.alchemyapi.io/&sa=D&source=editors&ust=1668004461503967&usg=AOvVaw2yfwG6e9jWQgjLK6i6Ke6U) when you signed up during the setup instructions
+This means your fork URL is missing some components. Go to your .env file and ensure your variable is set correctly, and that the end hash string in your URL matches the key you obtained from [Alchemy](https://www.alchemyapi.io/) when you signed up during the setup instructions
 
 ```
 ALCHEMY_MAINNET_RPC_URL='https://eth-mainnet.alchemyapi.io/v2/asdfsda8907s89df798sd7foshdfds9f8s7'
@@ -1246,7 +1246,7 @@ Windows Users:
 
 - Ensure you’re running VS Code as Administrator (hold shift, right click, run as Administrator)
 - Try installing it from the Command Prompt instead, ensuring you run the CMD.exe as Administrator
-- Try downloading and installing it via the [msi installer](https://www.google.com/url?q=https://classic.yarnpkg.com/latest.msi&sa=D&source=editors&ust=1668004461508126&usg=AOvVaw3cv5qHb5rI_gKafd3DDtM0)
+- Try downloading and installing it via the [msi installer](https://classic.yarnpkg.com/latest.msi)
 
 macOS or Linux users
 
@@ -1256,6 +1256,6 @@ macOS or Linux users
 sudo npm install -g yarn
 ```
 
-If you’re still stuck on installing yarn, check out some other possible installation methods on the [Yarn installation page](https://www.google.com/url?q=https://classic.yarnpkg.com/en/docs/install/&sa=D&source=editors&ust=1668004461509994&usg=AOvVaw2iasKVOHyi3h_BZrIh49s6)
+If you’re still stuck on installing yarn, check out some other possible installation methods on the [Yarn installation page](https://classic.yarnpkg.com/en/docs/install/)
 
 ---
