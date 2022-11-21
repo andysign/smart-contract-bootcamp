@@ -835,7 +835,7 @@ yarn hardhat compile
 
     It will  look like this:
 
-```json
+```
     5: {
         name: "goerli",
         linkToken: "0x326c977e6efc84e512bb9c30f76e30c160ed06fb",
