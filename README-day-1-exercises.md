@@ -508,7 +508,7 @@ contract APIConsumer is ChainlinkClient {
 
     /**
      * Network: Goerli
-     * Oracle: 0xc57B33452b4F7BB189bB5AfaE9cc4aBa1f7a4FD8 (Chainlink Devrel  
+     * Oracle: 0xc57B33452b4F7BB189bB5AfaE9cc4aBa1f7a4FD8 (Chainlink Devrel)
      * Node)
      * Job ID: d5270d1c311941d0b08bead21fea7747
      * Fee: 0.1 LINK
