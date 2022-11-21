@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day 3 Setup Instructions](#day-3-setup-instructions)
+  - [Hardhat Node Preparation](#hardhat-node-preparation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Day 3 Setup Instructions
 
 ![image](https://user-images.githubusercontent.com/11134288/203155605-f91ef525-428f-4ab6-bc3b-6a974999c62a.png)
