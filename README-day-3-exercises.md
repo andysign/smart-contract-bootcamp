@@ -52,7 +52,7 @@ Manual-testing your smart contracts can also reveal vulnerabilities that exist o
 
 ---
 
-### Best Practice for Testing Smart Contracts: Why is it important to test smart contracts?
+### Best Practice for Testing Smart Contracts: Why Is It Important To Test Smart Contracts?
 
 Testing smart contracts is important for the following reasons:
 
@@ -70,7 +70,7 @@ Testing smart contracts is important for the following reasons:
 
 ---
 
-### Best Practice for Testing Smart Contracts: Automated testing for smart contracts
+### Best Practice for Testing Smart Contracts: Automated Testing For Smart Contracts
 
 1. _Functional testing:_
 
@@ -142,7 +142,7 @@ Testing smart contracts is important for the following reasons:
 
 ---
 
-### Best Practice for Testing Smart Contracts: Testing vs. formal verification
+### Best Practice for Testing Smart Contracts: Testing Vs. Formal Verification
 
 While testing helps confirm that a contract returns the expected results for some data inputs, it cannot conclusively prove the same for inputs not used during tests. Testing a smart contract cannot guarantee "functional correctness", meaning it cannot show that a program behaves as required for all sets of input values and conditions.
 
